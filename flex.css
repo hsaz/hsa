@@ -1,0 +1,44 @@
+body
+{
+	margin: 0px
+}
+
+.fileEX
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+h1
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3em;
+	text-align: center;
+	border-bottom: 5px solid #0023FE;
+	border-right: 5px solid #425BFC;
+	width: 400px;
+	-o-box-shadow: 5px 5px 5px #9CA9FF;
+	-ms-box-shadow: 5px 5px 5px #9CA9FF;
+	-moz-box-shadow: 5px 5px 5px #9CA9FF;
+	-webkit-box-shadow: 5px 5px 5px #9CA9FF;
+	box-shadow: 5px 5px 5px #9CA9FF;
+	margin-top: 10px;
+}
+
+img
+{
+	width: 450px;
+	height: 300px;
+	margin: 5px; 
+	transition: all 0.9s;
+}
+
+img:hover
+{
+	transform: scale(1.1);
+}
+
+
+
+
